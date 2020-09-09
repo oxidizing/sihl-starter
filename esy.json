@@ -1,0 +1,11 @@
+{
+	"name": "sihl-starter",
+	"esy": {
+		"build": "dune build -p #{self.name}"	
+	},
+	"dependencies": {
+		"ocaml": "4.10.x",
+		"@opam/sihl": "*",
+		"@esy-ocaml/reason": "*"
+	}
+}
